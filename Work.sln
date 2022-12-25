@@ -11,7 +11,7 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "4CodeKeyASCII-", "4CodeKeyA
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "8WriteBuffer+", "8WriteBuffer\8WriteBuffer.vcxproj", "{5D6D266A-EA45-4A8C-B21B-DC770B147C7A}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "10CritSection-", "10CritSection\10CritSection.vcxproj", "{2E204FA9-72C6-419F-883E-B79620129B03}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "10CritSection+", "10CritSection\10CritSection.vcxproj", "{2E204FA9-72C6-419F-883E-B79620129B03}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "12ReditReadWriteStr+", "12ReditReadWriteStr+\12ReditReadWriteStr+.vcxproj", "{71B8E3DA-59D1-49F8-BB47-A7ED0CA1A27E}"
 EndProject
@@ -32,6 +32,8 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "27AnonimPipe+", "27AnonimPipe\27AnonimPipe.vcxproj", "{1BF1FAF6-D56C-4C35-B314-ADB956FB85D1}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "21DLL+", "21DLL\21DLL.vcxproj", "{76F7358A-92BA-4510-99A0-51123E12C88C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "3GetNameKey", "3GetNameKey\3GetNameKey.vcxproj", "{FE14AF9A-21DB-4900-B6CC-831DE291125C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -161,6 +163,14 @@ Global
 		{76F7358A-92BA-4510-99A0-51123E12C88C}.Release|x64.Build.0 = Release|x64
 		{76F7358A-92BA-4510-99A0-51123E12C88C}.Release|x86.ActiveCfg = Release|Win32
 		{76F7358A-92BA-4510-99A0-51123E12C88C}.Release|x86.Build.0 = Release|Win32
+		{FE14AF9A-21DB-4900-B6CC-831DE291125C}.Debug|x64.ActiveCfg = Debug|x64
+		{FE14AF9A-21DB-4900-B6CC-831DE291125C}.Debug|x64.Build.0 = Debug|x64
+		{FE14AF9A-21DB-4900-B6CC-831DE291125C}.Debug|x86.ActiveCfg = Debug|Win32
+		{FE14AF9A-21DB-4900-B6CC-831DE291125C}.Debug|x86.Build.0 = Debug|Win32
+		{FE14AF9A-21DB-4900-B6CC-831DE291125C}.Release|x64.ActiveCfg = Release|x64
+		{FE14AF9A-21DB-4900-B6CC-831DE291125C}.Release|x64.Build.0 = Release|x64
+		{FE14AF9A-21DB-4900-B6CC-831DE291125C}.Release|x86.ActiveCfg = Release|Win32
+		{FE14AF9A-21DB-4900-B6CC-831DE291125C}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
