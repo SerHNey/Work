@@ -1,6 +1,7 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 #include <Windows.h>
+int c = 0;
 
 int FacKU(int n) {
 	if (n == 0)
@@ -12,7 +13,7 @@ int FacKU(int n) {
 	{
 		a *= i;
 	}
-	return a;
+	return c = a;
 }
 
 main() {
@@ -22,7 +23,9 @@ main() {
 		scanf("%s", str);
 		int n = atoi(str);
 		if (n != NULL) {
-			printf("%d\n", FacKU(n));
+			hThread = CreateThread(NULL, 0, FacKU, n, NULL, NULL);
+			WaitForSingleObject(hThread, INFINITE);
+			printf("%d\n", c);
 		}
 	}
 }
