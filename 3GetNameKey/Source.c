@@ -19,7 +19,7 @@ LRESULT CALLBACK KeyboardProc(int nCode, WPARAM wParam, LPARAM lParam)
 
         GetKeyNameText(iKey, szKeyName, 256);
         // Выводим название клавиши в MessageBox
-        MessageBox(NULL, szKeyName, "Key Pressed", MB_OK);
+        MessageBox(NULL, szKeyName, L"Key Pressed", MB_OK);
     }
     return CallNextHookEx(hHook, nCode, wParam, lParam);
 }
