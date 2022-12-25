@@ -24,7 +24,7 @@
     <ProjectGuid>{2e204fa9-72c6-419f-883e-b79620129b03}</ProjectGuid>
     <RootNamespace>My10CritSection</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>10CritSection-</ProjectName>
+    <ProjectName>10CritSection+</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

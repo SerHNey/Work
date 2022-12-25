@@ -1,6 +1,6 @@
 #include <Windows.h>
-#include <stdint.h>
-
+#include <Stdio.h>
+DWORD WINAPI thread_func(int thread_num);
 CRITICAL_SECTION cs;
 int count = 0;
 
